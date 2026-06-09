@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "pm2 start app.js --watch",
-    "dev": "npx supervisor index.js",
+    "dev": "node --watch app.js",
     "stop": "pm2 stop all"
   },
   "keywords": [],
